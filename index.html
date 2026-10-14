@@ -1,0 +1,628 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bonkers Corner — Streetwear Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Announcement bars -->
+    
+<div class="announcement-bar">
+    <div class="announcement-track">
+        <span>
+            NEW DROP ALERT — DISCOVER THE LATEST STREETWEAR
+            <span class="announcement-star">✳</span>
+            FREE SHIPPING ON SELECT ORDERS
+            <span class="announcement-star">✳</span>
+        </span>
+
+        <span aria-hidden="true">
+            NEW DROP ALERT — DISCOVER THE LATEST STREETWEAR
+            <span class="announcement-star">✳</span>
+            FREE SHIPPING ON SELECT ORDERS
+            <span class="announcement-star">✳</span>
+        </span>
+    </div>
+</div>
+
+
+    
+
+    <!-- Header -->
+    <header class="site-header">
+        <button class="menu-button" id="menuButton" aria-label="Open menu">
+            ☰
+        </button>
+
+        <a href="#" class="logo">BONKERS<span>®</span></a>
+
+        <nav class="main-nav" id="mainNav">
+            <a href="#new">NEW IN</a>
+            <a href="#bestsellers">BEST SELLERS</a>
+            <a href="#men">MEN</a>
+            <a href="#women">WOMEN</a>
+            <a href="#collections">COLLECTIONS</a>
+            <a href="#sale">SALE</a>
+        </nav>
+
+        <div class="header-actions">
+            <form id="searchForm" class="header-search">
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search..."
+                    aria-label="Search products"
+                >
+                <button type="submit" aria-label="Submit search">⌕</button>
+            </form>
+            <button aria-label="Account" id="accountButton">♙</button>
+            <button class="header-wishlist" id="headerWishlist" aria-label="Wishlist">♡</button>
+            <a class="header-collections" href="#collections" aria-label="Collections">▤</a>
+            <button class="cart-button" id="cartButton" aria-label="Shopping cart">
+                ♧ <span id="cartCount">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero banner -->
+    <main>
+        
+<section class="hero">
+
+    <!-- Slide 1 -->
+    <div class="hero-slide active">
+        <img src="images/HERO1.jpg" alt="Fashion collection">
+
+        <div class="hero-content">
+            <p class="hero-subtitle">NEW SEASON. NEW ENERGY.</p>
+            <h1>MADE TO<br>STAND OUT.</h1>
+            <p class="hero-description">
+                Everyday essentials. Uncommon attitude.
+            </p>
+            <a href="#" class="hero-button">SHOP NEW IN ↗</a>
+        </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide">
+        <img src="images/hero2.jpg" alt="Latest fashion collection">
+
+        <div class="hero-content">
+            <p class="hero-subtitle">Choose yout style.</p>
+            <h1>Be a man <br>choose urself.</h1>
+            <p class="hero-description">
+                find your type here.
+            </p>
+            <a href="#" class="hero-button">EXPLORE NOW ↗</a>
+        </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="hero-slide">
+        <img src="images/hero3.jpg" alt="Latest fashion collection">
+
+        <div class="hero-content">
+            <p class="hero-subtitle">YOUR STYLE. YOUR RULES.</p>
+            <h1>BREAK THE<br>ORDINARY.</h1>
+            <p class="hero-description">
+                Discover your next favourite look.
+            </p>
+            <a href="#" class="hero-button">EXPLORE NOW ↗</a>
+        </div>
+    </div>
+
+    <!-- Slider controls -->
+    <div class="hero-controls">
+
+        <button class="hero-arrow prev" aria-label="Previous slide">
+            &#8592;
+        </button>
+
+        <div class="hero-dots">
+            <button class="hero-dot active" aria-label="Slide 1">
+                <span></span>
+            </button>
+
+            <button class="hero-dot" aria-label="Slide 2">
+                <span></span>
+            </button>
+
+            <button class="hero-dot" aria-label="Slide 3">
+                <span></span>
+            </button>
+
+        </div>
+
+        <button class="hero-arrow next" aria-label="Next slide">
+            &#8594;
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="audience-campaign" aria-label="Shop the latest collections">
+    <a class="audience-campaign-card" href="#men">
+        <img src="images/hero2.jpg" alt="Men's streetwear collection">
+        <div class="audience-campaign-content">
+            <p>THE LATEST DROP</p>
+            <h2>SHOP MEN</h2>
+            <span>EXPLORE COLLECTION ↗</span>
+        </div>
+    </a>
+    <a class="audience-campaign-card" href="#women">
+        <img src="images/hero3.jpg" alt="Women's streetwear collection">
+        <div class="audience-campaign-content">
+            <p>MADE TO STAND OUT</p>
+            <h2>SHOP WOMEN</h2>
+            <span>EXPLORE COLLECTION ↗</span>
+        </div>
+    </a>
+</section>
+
+
+<!-- Additional rotating campaign banner -->
+
+
+<section class="hero2">
+
+    <!-- Slide 1 -->
+    <div class="hero2-slide active">
+        <img src="images/hero3.jpg" alt="Fashion collection">
+
+        <div class="hero-content">
+            <p class="hero-subtitle">NEW SEASON. NEW ENERGY.</p>
+            <h1>MADE TO<br>STAND OUT.</h1>
+            <p class="hero-description">
+                Everyday essentials. Uncommon attitude.
+            </p>
+            <a href="#" class="hero-button">SHOP NEW IN ↗</a>
+        </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero2-slide">
+        <img src="images/hero2.jpg" alt="Latest fashion collection">
+
+        <div class="hero-content">
+            <p class="hero-subtitle">Choose your style.</p>
+            <h1>Be a man<br>choose yourself.</h1>
+            <p class="hero-description">
+                find your type here.
+            </p>
+            <a href="#" class="hero-button">EXPLORE NOW ↗</a>
+        </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="hero2-slide">
+        <img src="images/hero3.jpg" alt="Latest fashion collection">
+
+        <div class="hero-content">
+            <p class="hero-subtitle">YOUR STYLE. YOUR RULES.</p>
+            <h1>BREAK THE<br>ORDINARY.</h1>
+            <p class="hero-description">
+                Discover your next favourite look.
+            </p>
+            <a href="#" class="hero-button">EXPLORE NOW ↗</a>
+        </div>
+    </div>
+
+    <!-- Slider controls -->
+    <div class="hero2-controls">
+
+        <button class="hero-arrow prev" aria-label="Previous slide">
+            &#8592;
+        </button>
+
+        <div class="hero-dots">
+            <button class="hero-dot active" aria-label="Slide 1">
+                <span></span>
+            </button>
+
+            <button class="hero-dot" aria-label="Slide 2">
+                <span></span>
+            </button>
+
+            <button class="hero-dot" aria-label="Slide 3">
+                <span></span>
+            </button>
+
+        </div>
+
+        <button class="hero-arrow next" aria-label="Next slide">
+            &#8594;
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Continue with the rest of the storefront -->
+ 
+        <!-- Campaign strip -->
+        <section class="campaign-strip" id="collections">
+            <div>
+                <span>01</span>
+                <p>BUILT FOR EVERYDAY</p>
+            </div>
+            <div>
+                <span>02</span>
+                <p>MADE TO MOVE</p>
+            </div>
+            <div>
+                <span>03</span>
+                <p>YOUR STYLE. YOUR RULES.</p>
+            </div>
+        </section>
+
+        <!-- Category cards -->
+        <section class="section category-section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">FIND YOUR FIT</p>
+                    <h2>THE CORNER STORE</h2>
+                </div>
+                <a href="#new" class="text-link">EXPLORE ALL ↗</a>
+            </div>
+
+            <div class="category-grid">
+                <a href="#men" class="category-card">
+                    <img
+                        src="images/13.jpg"
+                        alt="Men's streetwear"
+                    >
+                    <div class="category-overlay">
+                        <p>THE EVERYDAY EDIT</p>
+                        <h3>SHOP MEN</h3>
+                        <span>EXPLORE ↗</span>
+                    </div>
+                </a>
+
+                <a href="#women" class="category-card">
+                    <img
+                        src="images/14.jpg"
+                        alt="Women's fashion"
+                    >
+                    <div class="category-overlay">
+                        <p>MAKE IT YOURS</p>
+                        <h3>SHOP WOMEN</h3>
+                        <span>EXPLORE ↗</span>
+                    </div>
+                </a>
+
+                <a href="#bestsellers" class="category-card">
+                    <img
+                        src="images/15.png"
+                        alt="Casual fashion collection"
+                    >
+                    <div class="category-overlay">
+                        <p>THE PEOPLE'S PICKS</p>
+                        <h3>BEST SELLERS</h3>
+                        <span>EXPLORE ↗</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section video-showcase" aria-labelledby="videoShowcaseTitle">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">A CLOSER LOOK</p>
+                    <h2 id="videoShowcaseTitle">WATCH THE LATEST</h2>
+                </div>
+            </div>
+
+            <div class="video-showcase-grid">
+                <video autoplay muted loop controls playsinline preload="auto" poster="images/13.jpg"
+                       aria-label="Bonkers Corner fashion video 1">
+                    <source src="video/video1.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+                <video autoplay muted loop controls playsinline preload="auto" poster="images/14.jpg"
+                       aria-label="Bonkers Corner fashion video 2">
+                    <source src="video/video2.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+                <video autoplay muted loop controls playsinline preload="auto" poster="images/15.png"
+                       aria-label="Bonkers Corner fashion video 3">
+                    <source src="video/video3.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </div>
+        </section>
+
+        <!-- New arrivals -->
+        <section class="section products-section" id="new">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">JUST LANDED</p>
+                    <h2>NEW IN</h2>
+                </div>
+                <a href="#new" class="text-link">VIEW ALL ↗</a>
+            </div>
+
+            <div class="product-grid" id="newProducts"></div>
+        </section>
+
+        <!-- Promotional banner -->
+        <section class="promo-banner" id="sale">
+            <img
+                src="images/16.jpg"
+                alt="Streetwear fashion campaign"
+            >
+            <div class="promo-content">
+                <p class="eyebrow">YOUR NEXT FAVOURITE FIT</p>
+                <h2>STYLE THAT<br>SPEAKS FOR YOU.</h2>
+                <a href="#bestsellers" class="button button-light">SHOP THE EDIT ↗</a>
+            </div>
+        </section>
+
+        <!-- Best sellers -->
+        <section class="section products-section" id="bestsellers">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">THE CROWD FAVOURITES</p>
+                    <h2>BEST SELLERS</h2>
+                </div>
+                <a href="#bestsellers" class="text-link">VIEW ALL ↗</a>
+            </div>
+
+            <div class="product-grid" id="bestProducts"></div>
+        </section>
+
+        <!-- Men -->
+        <section class="section products-section" id="men">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">OFF-DUTY ESSENTIALS</p>
+                    <h2>SHOP MEN</h2>
+                </div>
+                <a href="#men" class="text-link">VIEW ALL ↗</a>
+            </div>
+
+            <div class="product-grid" id="menProducts"></div>
+        </section>
+
+        <!-- Women -->
+        <section class="section products-section" id="women">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">OWN YOUR LOOK</p>
+                    <h2>SHOP WOMEN</h2>
+                </div>
+                <a href="#women" class="text-link">VIEW ALL ↗</a>
+            </div>
+
+            <div class="product-grid" id="womenProducts"></div>
+        </section>
+
+        <section class="latest-news" aria-labelledby="latestNewsTitle">
+            <div class="latest-news-heading">
+                <div>
+                    <h2 id="latestNewsTitle">Latest News</h2>
+                    <p>Hot off the press: All the latest news in fashion</p>
+                </div>
+                <a href="https://www.bonkerscorner.com/blogs/bonkers-corner"
+                   target="_blank" rel="noreferrer">View all posts <span aria-hidden="true">↗</span></a>
+            </div>
+
+            <div class="latest-news-grid">
+                <article class="news-card" id="newsArticle1">
+                    <a class="news-card-image"
+                       href="https://www.bonkerscorner.com/blogs/bonkers-corner/hip-hop-fashion-how-rap-culture-shaped-streetwear"
+                       target="_blank" rel="noreferrer">
+                        <img src="images/13.jpg" alt="Streetwear looks inspired by hip hop fashion">
+                    </a>
+                    <p class="news-card-date">October 05 2026</p>
+                    <h3>
+                        <a href="https://www.bonkerscorner.com/blogs/bonkers-corner/hip-hop-fashion-how-rap-culture-shaped-streetwear"
+                           target="_blank" rel="noreferrer">Hip Hop Fashion: How Rap Culture Shaped Streetwear</a>
+                    </h3>
+                    <p class="news-card-summary">
+                        Explore how rap culture shaped hip hop fashion, from oversized fits and streetwear
+                        to dance, performance and the Hustle x Bonkers Corner collaboration.
+                    </p>
+                    <a class="news-read-more"
+                       href="https://www.bonkerscorner.com/blogs/bonkers-corner/hip-hop-fashion-how-rap-culture-shaped-streetwear"
+                       target="_blank" rel="noreferrer">Read more</a>
+                </article>
+
+                <article class="news-card" id="newsArticle2">
+                    <a class="news-card-image"
+                       href="https://www.bonkerscorner.com/blogs/bonkers-corner/creatures-of-paradise-where-the-wild-meets-streetwear"
+                       target="_blank" rel="noreferrer">
+                        <img src="images/14.jpg" alt="Nature-inspired streetwear from Creatures of Paradise">
+                    </a>
+                    <p class="news-card-date">September 25 2026</p>
+                    <h3>
+                        <a href="https://www.bonkerscorner.com/blogs/bonkers-corner/creatures-of-paradise-where-the-wild-meets-streetwear"
+                           target="_blank" rel="noreferrer">Creatures of Paradise: Where the Wild Meets Streetwear</a>
+                    </h3>
+                    <p class="news-card-summary">
+                        Step into Creatures of Paradise, where wild animals meet bold graphics and relaxed
+                        streetwear. Discover how Bonkers Corner turns nature and imagination into expressive looks made to stand out.
+                    </p>
+                    <a class="news-read-more"
+                       href="https://www.bonkerscorner.com/blogs/bonkers-corner/creatures-of-paradise-where-the-wild-meets-streetwear"
+                       target="_blank" rel="noreferrer">Read more</a>
+                </article>
+
+                <article class="news-card" id="newsArticle3">
+                    <a class="news-card-image"
+                       href="https://www.bonkerscorner.com/blogs/bonkers-corner/indian-hip-hop-meets-streetwear"
+                       target="_blank" rel="noreferrer">
+                        <img src="images/15.png" alt="Indian hip hop artists wearing streetwear">
+                    </a>
+                    <p class="news-card-date">September 18 2026</p>
+                    <h3>
+                        <a href="https://www.bonkerscorner.com/blogs/bonkers-corner/indian-hip-hop-meets-streetwear"
+                           target="_blank" rel="noreferrer">Bars, Beats &amp; Baggy Fits: When Indian Hip-Hop Meets Streetwear</a>
+                    </h3>
+                    <p class="news-card-summary">
+                        A licensed collaboration bringing Indian hip-hop and streetwear together for
+                        Hustle Season 5 – Apna Homeground.
+                    </p>
+                    <a class="news-read-more"
+                       href="https://www.bonkerscorner.com/blogs/bonkers-corner/indian-hip-hop-meets-streetwear"
+                       target="_blank" rel="noreferrer">Read more</a>
+                </article>
+            </div>
+
+            <div class="news-pagination" aria-label="Choose a featured article">
+                <button class="news-page-dot active" type="button" aria-label="Show article 1" aria-current="true"></button>
+                <button class="news-page-dot" type="button" aria-label="Show article 2"></button>
+                <button class="news-page-dot" type="button" aria-label="Show article 3"></button>
+            </div>
+        </section>
+
+        <section class="service-promises" aria-label="Our promises">
+            <article class="service-promise">
+                <span class="service-promise-icon" aria-hidden="true">48h</span>
+                <h2>SHIPPING WITHIN 48 HOURS</h2>
+                <p>Your order will be shipped within 48 hours from the time since order is placed!</p>
+            </article>
+            <article class="service-promise">
+                <span class="service-promise-icon" aria-hidden="true">%</span>
+                <h2>5% OFF</h2>
+                <p>5% OFF on Pre-paid orders.</p>
+            </article>
+            <article class="service-promise">
+                <span class="service-promise-icon" aria-hidden="true">✦</span>
+                <h2>MADE IN INDIA</h2>
+                <p>Our products are 100% made in India. From raw fabric to the final product!</p>
+            </article>
+            <article class="service-promise">
+                <span class="service-promise-icon" aria-hidden="true">◇</span>
+                <h2>LUXURY FASHION MADE ACCESSIBLE</h2>
+                <p>High-quality clothing at affordable prices</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a href="#" class="logo">BONKERS<span>®</span></a>
+                <p>Everyday streetwear.<br>Uncommon attitude.</p>
+                <nav class="footer-socials" aria-label="Follow Bonkers Corner">
+                    <a href="https://www.facebook.com/TeamBonkerscorner" target="_blank" rel="noreferrer" aria-label="Facebook">f</a>
+                    <a href="https://x.com/BonkersCornerX" target="_blank" rel="noreferrer" aria-label="X">𝕏</a>
+                    <a href="https://www.instagram.com/bonkers.corner/" target="_blank" rel="noreferrer" aria-label="Instagram">◎</a>
+                    <a href="https://www.youtube.com/@bonkerscorner" target="_blank" rel="noreferrer" aria-label="YouTube">▶</a>
+                    <a href="https://www.pinterest.com/bonkerscorner9/" target="_blank" rel="noreferrer" aria-label="Pinterest">p</a>
+                </nav>
+            </div>
+
+            <div class="footer-column">
+                <h3>SHOP</h3>
+                <a href="https://www.bonkerscorner.com/collections/best-sellers">BEST SELLERS</a>
+                <a href="https://www.bonkerscorner.com/collections/special-prices">Special Prices</a>
+                <a href="https://www.bonkerscorner.com/collections/spongebob-collection-app">SpongeBob</a>
+                <a href="https://www.bonkerscorner.com/collections/tokidoki-collection-app">tokidoki</a>
+                <a href="https://www.bonkerscorner.com/collections/disney-collection-app">Disney</a>
+                <a href="https://www.bonkerscorner.com/collections/marvel-collection-app">Marvel</a>
+                <a href="https://www.bonkerscorner.com/collections/new-arrivals">NEW ARRIVALS</a>
+                <a href="https://www.bonkerscorner.com/collections/signature-collection-app">Signature</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>TRENDING</h3>
+                <a href="https://www.bonkerscorner.com/collections/acosta-collection-app">ACOSTA Collection</a>
+                <a href="https://www.bonkerscorner.com/collections/anime-collection-app">Anime Collection</a>
+                <a href="https://www.bonkerscorner.com/collections/oversized-t-shirt-men">Oversized T-shirt</a>
+                <a href="https://www.bonkerscorner.com/collections/oversized-shirt-app">Oversized Shirt</a>
+                <a href="https://www.bonkerscorner.com/collections/womens-bottoms">Bottoms for Women</a>
+                <a href="https://www.bonkerscorner.com/collections/mens-bottoms">Bottoms for Men</a>
+                <a href="https://www.bonkerscorner.com/collections/sweatshirts-hoodies">Sweatshirts &amp; Hoodies</a>
+                <a href="https://www.bonkerscorner.com/collections/jacket-app">Jacket</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>INFO</h3>
+                <a href="https://www.bonkerscorner.com/pages/terms-and-conditions">Terms &amp; Conditions</a>
+                <a href="https://www.bonkerscorner.com/pages/store-locator">Stores Near Me</a>
+                <a href="https://www.bonkerscorner.com/blogs/bonkers-corner" target="_blank" rel="noreferrer">Blogs</a>
+                <a href="https://www.bonkerscorner.com/pages/faq">FAQs</a>
+                <a href="https://www.bonkerscorner.com/pages/get-in-touch">Contact</a>
+                <a href="https://www.bonkerscorner.com/policies/privacy-policy">Privacy Policy</a>
+                <a href="https://www.bonkerscorner.com/pages/return-exchange-policy">Returns and Exchange Policy</a>
+                <a href="https://www.bonkerscorner.com/pages/bonkers-corner-offers">Offers and Deals</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>EXPLORE</h3>
+                <a href="https://www.bonkerscorner.com/search">Search</a>
+                <a href="https://bonkerscorner-store.myshopify.com/apps/return_prime">Return</a>
+                <a href="https://www.bonkerscorner.com/pages/about-us">About Us</a>
+                <a href="https://www.bonkerscorner.com/pages/html-sitemap">HTML Sitemap</a>
+            </div>
+        </div>
+
+        <div class="footer-newsletter">
+            <p class="eyebrow">WE'VE GOT YOU COVERED</p>
+            <p>Beyond the Outfit: Be the first to know about new arrivals, sales &amp; exclusive drops.</p>
+            <form id="newsletterForm" class="newsletter-form">
+                <label for="emailInput">YOUR EMAIL ADDRESS</label>
+                <div class="email-field">
+                    <input type="email" id="emailInput" placeholder="Enter your email" required>
+                    <button type="submit" aria-label="Subscribe">↗</button>
+                </div>
+                <p id="newsletterMessage" class="form-message" aria-live="polite"></p>
+            </form>
+        </div>
+
+        <div class="footer-bottom" id="footer">
+            <p>© 2026 BONKERS CORNER. DEMO STOREFRONT.</p>
+            <p>MADE FOR EVERYDAY MOVEMENT.</p>
+        </div>
+    </footer>
+
+    <!-- Cart overlay and drawer -->
+    <div class="overlay" id="overlay"></div>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+        <div class="cart-header">
+            <h2>YOUR CART (<span id="drawerCartCount">0</span>)</h2>
+            <button id="closeCart" aria-label="Close cart">✕</button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">Your cart is currently empty.</p>
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>SUBTOTAL</span>
+                <strong id="cartTotal">₹0</strong>
+            </div>
+            <p class="cart-note">Shipping and discounts are calculated at checkout.</p>
+            <button class="button button-dark checkout-button" id="checkoutButton">
+                CONTINUE TO CHECKOUT ↗
+            </button>
+        </div>
+    </aside>
+
+    <!-- Toast message -->
+    <div class="toast" id="toast" role="status"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
